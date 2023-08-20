@@ -1,0 +1,54 @@
+#game div {
+  background: lightgray;
+  border: 3px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  margin-top: 2%;
+  padding: 5px;
+  padding-left: 40px;
+  display: inline-block;
+  box-shadow: -1px 1px 2px #000,
+  1px 2px 6px #000,
+  1px -1px 0 #000,
+  -1px -1px 0 #000;
+}
+
+
+/* div .red {
+  background: red;
+}
+
+div .blue {
+  background: blue;
+}
+
+div .green {
+  background: green;
+}
+
+div .orange {
+  background: orange;
+}
+
+div .purple {
+  background: purple;
+} */
+
+h1 {
+  cursor: pointer;
+  font-size: 50px;
+  text-shadow: -1px 1px 2px #000;
+  text-align: center;
+  color: rgb(245, 226, 226);
+  font-family: 'Kablammo', cursive;
+  text-shadow: -1px 1px 2px #000,
+              1px 2px 6px #000,
+              1px -1px 0 #000,
+              -1px -1px 0 #000;
+}
+
+body {
+  background:linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet, red);
+}
+
